@@ -40,8 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="ClienteColecao.cs" />
+    <Compile Include="Filial.cs" />
+    <Compile Include="FilialColecao.cs" />
+    <Compile Include="Fornecedor.cs" />
+    <Compile Include="FornecedorColecao.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="PessoaColecao.cs" />
+    <Compile Include="PessoaFisica.cs" />
+    <Compile Include="PessoaFisicaColecao.cs" />
+    <Compile Include="PessoaJuridica.cs" />
+    <Compile Include="PessoaJuridicaColecao.cs" />
     <Compile Include="PessoaTipo.cs" />
     <Compile Include="PessoaTipoColecao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
