@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AcessoBancoDados_DAL.Properties;
+using System;
 
 //add
 using System.Data;
 using System.Data.SqlClient;
-using AcessoBancoDados_DAL.Properties;
 
 namespace AcessoBancoDados_DAL
 {
