@@ -22,22 +22,21 @@ namespace RegrasNegocios_BLL
 
                 return idPedido;
             }
-            catch (Exception ex)
+            catch (Exception exception)
             {
-                return ex.Message;
+                return exception.Message;
             }
         }
 
         //CONSULTAR POR DATA
         public PedidoColecao ConsultarPorData(DateTime dataInicial, DateTime dataFinal)
         {
-            PedidoDAL pedidoDal = new PedidoDAL();
+            PedidoDAL pedidoDAL = new PedidoDAL();
             PedidoColecao pedidoColecao = new PedidoColecao();
 
-            pedidoColecao = pedidoDal.ConsultarPorData(dataInicial, dataFinal);
+            pedidoColecao = pedidoDAL.ConsultarPorData(dataInicial, dataFinal);
 
             return pedidoColecao;
-
         }
     }
 }

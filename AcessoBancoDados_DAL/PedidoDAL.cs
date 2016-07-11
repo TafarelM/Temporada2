@@ -74,7 +74,6 @@ namespace AcessoBancoDados_DAL
             }
             catch (Exception exception)
             {
-
                 throw new Exception("ERRO AO CONSULTAR PEDIDO POR DATA. DATELHES: " + exception);
             }
         }
